@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : lab7.cpp
+// Name        : vector_strings.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -16,10 +16,10 @@ int main() {
 	char input[10];
 	int i;
 	vector<string> vec;
-	cout << "Enter 5 strings, -1 to quit: " << endl;
+	cout << "Enter 5 strings: " << endl;
 
 	cin >> input;
-	for(i=0;i<5;i++){
+	for(i=0;i<4;i++){
 		vec.push_back(input);
 		cin >> input;
 	}

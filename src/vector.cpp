@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int main() {
+/*int main() {
 	int input = 0;
 	vector<int> vec;
 	cout << "Enter integers, -1 to quit: " << endl;
@@ -26,4 +26,4 @@ int main() {
 		cout << x << endl;
 	}
 	return 0;
-}
+}*/
